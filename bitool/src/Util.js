@@ -51,17 +51,16 @@ const data = (path) => {
     case "recharge":
       return {
         labels: [
-          "California",
-          "Alaska",
-          "Arizona",
-          "New York",
-          "Virginia",
-          "Texas",
+          "Red + White",
+          "Red",
+          "Rosé",
+          "White",
+          "Sparkling",
         ],
         datasets: [
           {
-            label: "Subscriptions By State",
-            data: [120, 190, 30, 100, 20, 65],
+            label: "Subscription Re-Orders",
+            data: [120, 190, 30, 100, 65],
             backgroundColor: [
               "rgba(255, 99, 132, 0.2)",
               "rgba(54, 162, 235, 0.2)",

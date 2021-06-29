@@ -7,11 +7,12 @@ import "../style/sidebar.css";
 const Sidebar = () => {
   const [tables, setTables] = useState([]);
 
-  // useEffect will throw an error if callback is async
-  // workaround by wrapping in synchronous function
-  // replace with Suspense once included in stable release
+  // useEffect does not expect callback to return promise, will throw error
+  // workaround by wrapping async in synchronous function
+  // replace with Suspense once available in stable release
 
   useEffect(() => {
+    
     // (async () => {
     //   setTables(await util.fetchTables());
     // })();
@@ -22,6 +23,7 @@ const Sidebar = () => {
     }
 
     getTables();
+
   }, []);
 
   const links = tables.map((table) => (

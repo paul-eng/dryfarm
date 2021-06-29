@@ -6,7 +6,7 @@ import "../style/statusbar.css";
 
 const Statusbar = (props) => {
   const history = useHistory();
-  
+
   const getPath = (location) => {
     const path = location.pathname;
     if (path.slice(1, 9) === "overview") {
@@ -16,6 +16,7 @@ const Statusbar = (props) => {
       return "";
     }
   };
+  
   const [name, setName] = useState(getPath(history.location));
 
   useEffect(() => {
