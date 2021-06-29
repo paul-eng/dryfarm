@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-template-rows: 3em auto;
+  grid-template-areas:
+    "side status"
+    "side over"
+}
+
+.sidebar {
+  grid-area: side;
+}
+
+.statusbar {
+  grid-area: status;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}

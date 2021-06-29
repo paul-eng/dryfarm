@@ -1,0 +1,23 @@
+.statusbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em;
+}
+.statusbar strong {
+    color: #72a7cf;
+    cursor: pointer;
+}
+
+.statusbar img {
+    height: 2em;
+    cursor: pointer;
+}
+
+.statusbar img:hover {
+    opacity: .3;
+}
+
+.statusbar img:last-of-type {
+    margin-left: 1em;
+}

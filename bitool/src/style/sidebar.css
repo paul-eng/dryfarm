@@ -1,0 +1,40 @@
+.sidebar {
+    background-color: rgb(243, 243, 243);
+    border-right: lightgray 1px solid;
+}
+
+.sidebar img {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5em 2em;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar ul:last-of-type::before {
+    content: '';
+    height: 1px;
+    width: 85%;
+    background-color: lightgray;
+    margin: 1em auto;
+}
+
+.sidebar ul a {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 1em 0 1em 2em;
+    color: rgb(84, 84, 84)
+}
+
+.sidebar ul a:hover {
+    color: black;
+    background-color: rgb(230, 230, 230);
+}
+
+.sidebar ul a:active {
+    background-color: lightgray;
+}
