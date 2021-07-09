@@ -2,9 +2,9 @@
   text-align: center;
   display: grid;
   grid-template-columns: 20% auto;
-  grid-template-rows: 3em auto;
+  grid-template-rows: max-content auto;
   grid-template-areas:
-    "side status"
+    "status status"
     "side over"
 }
 

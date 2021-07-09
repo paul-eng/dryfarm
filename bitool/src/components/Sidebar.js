@@ -12,7 +12,6 @@ const Sidebar = () => {
   // replace with Suspense once available in stable release
 
   useEffect(() => {
-    
     // (async () => {
     //   setTables(await util.fetchTables());
     // })();
@@ -23,7 +22,6 @@ const Sidebar = () => {
     }
 
     getTables();
-
   }, []);
 
   const links = tables.map((table) => (

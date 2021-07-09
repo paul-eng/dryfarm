@@ -6,7 +6,7 @@
 .sidebar img {
     box-sizing: border-box;
     width: 100%;
-    padding: 5em 2em;
+    padding: 2em 2em;
 }
 
 .sidebar ul {
@@ -20,6 +20,10 @@
     width: 85%;
     background-color: lightgray;
     margin: 1em auto;
+}
+
+.sidebar ul:first-of-type a:first-of-type{
+    padding: 0 0 1em 2em;
 }
 
 .sidebar ul a {

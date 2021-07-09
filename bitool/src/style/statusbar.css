@@ -2,11 +2,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2em;
+    padding: 0 2em;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 3em;
 }
 .statusbar strong {
     color: #72a7cf;
     cursor: pointer;
+}
+
+.statusbar section {
+    display: flex;
+    justify-content: center;
 }
 
 .statusbar img {
@@ -15,7 +23,7 @@
 }
 
 .statusbar img:hover {
-    opacity: .3;
+    opacity: .7;
 }
 
 .statusbar img:last-of-type {

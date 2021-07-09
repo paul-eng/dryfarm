@@ -28,7 +28,7 @@ const Statusbar = (props) => {
   return (
     <aside className="statusbar">
       <section>
-        <strong>{name}</strong> {name !== "" ? "/ Overview" : ""}
+        <strong>{name}</strong> {name !== "" ? "\xa0/ Overview" : ""}
       </section>
 
       <section>
